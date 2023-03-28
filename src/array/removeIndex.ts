@@ -4,7 +4,7 @@
 export function removeIndex(table: Array<any>, index: number) {
 
     const array = table
-    const result = []
+    const result: Array<any> = []
 
     for (let i = 0; i < index; i++) {
         result.push(array[i])
