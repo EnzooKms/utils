@@ -1,2 +1,2 @@
-export * from "./array/removeIndex"
-export * from "./array/sortNearestTo"
+export * from './array/removeIndex'
+export * from './array/sortNearestTo'

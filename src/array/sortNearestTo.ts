@@ -1,4 +1,7 @@
-export function sortNearestTo(table: Array<number>, reference: number) {
+import { removeIndex } from '../index'
+import '../injector'
+
+export function sortNearestTo(table: Array<number>, reference: number): Array<number> {
     const array = table
     const result = []
     const difference = {
@@ -6,17 +9,23 @@ export function sortNearestTo(table: Array<number>, reference: number) {
         index: 0
     }
 
-    for (let i = 0; i < array.length; i++) {
-        const element = array[i]
+    while (array.length > 0) {
 
-        if (reference - element < difference.diff) {
-            difference.diff = reference - element
-            difference.index = i
+        for (let i = 0; i < array.length; i++) {
+            const element = array[i]
+
+            if (reference - element < difference.diff) {
+                difference.diff = reference - element
+                difference.index = i
+            }
+
         }
+
+        result.push(array[difference.index])
+        array.replaceArray(removeIndex(array, difference.index))
 
     }
 
-    result.push(array[difference.index])
-    const newArray = []
+    return result
 
 }
