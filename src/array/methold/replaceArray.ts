@@ -1,7 +1,3 @@
-interface Array<T> {
-    replaceArray(this: Array<any>, table: Array<any>): Array<any>
-}
-
 /**
  * replace current array by the argument array
  */

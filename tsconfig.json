@@ -100,7 +100,7 @@
   },
   "include": [
     "./src/**/*",
-    "./test"
+    "./readme.md"
   ],
   "exclude": [
     "node_modules"
