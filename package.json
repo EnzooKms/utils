@@ -1,6 +1,6 @@
 {
-  "name": "utils",
-  "version": "0.0.1",
+  "name": "utils-ed",
+  "version": "0.0.2",
   "description": "",
   "files": [
     "./build"
@@ -12,7 +12,7 @@
     "build": "npx tsc",
     "test": "jest"
   },
-  "author": "",
+  "author": "enzoo_kms",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.0",

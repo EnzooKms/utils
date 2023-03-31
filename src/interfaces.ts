@@ -3,3 +3,7 @@ interface Array<T> {
     replaceArray(this: Array<any>, table: Array<any>): Array<any>
     sortNearestTo(this: Array<T>, reference: any): Array<number>
 }
+
+interface Number {
+    inverseNumber(this: Number): number
+}
