@@ -1,5 +1,5 @@
-import { inverseNumber, isNegative, removeIndex } from '../../index'
-import '../../injector'
+import { inverseNumber, isNegative, removeIndex } from '../../index.js'
+import '../../injector.js'
 
 
 export function sortNearestTo(table: Array<any>, reference: number): Array<number> {

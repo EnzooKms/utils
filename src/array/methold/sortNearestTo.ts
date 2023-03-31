@@ -1,5 +1,5 @@
-import { inverseNumber, isNegative, removeIndex } from '../../index'
-import '../../injector'
+import { inverseNumber, isNegative, removeIndex } from '../../index.js'
+import '../../injector.js'
 
 /**
  *  sort Array of number nearest to an reference
