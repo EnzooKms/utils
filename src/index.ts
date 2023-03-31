@@ -7,12 +7,12 @@
  * array export
  */
 
-export * from './array/function/removeIndex'
-export * from './array/function/sortNearestTo'
+export * from './array/function/removeIndex.js'
+export * from './array/function/sortNearestTo.js'
 
 /**
  * number export
  */
 
-export * from './number/function/isNegative'
-export * from './number/function/inverseNumber'
+export * from './number/function/isNegative.js'
+export * from './number/function/inverseNumber.js'
