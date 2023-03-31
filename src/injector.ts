@@ -11,3 +11,4 @@ import './array/methold/sortNearestTo.js'
  */
 
 import './number/methold/inverseNumber.js'
+import './number/methold/isNegative.js'

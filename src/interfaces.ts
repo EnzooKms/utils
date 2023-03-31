@@ -6,4 +6,5 @@ interface Array<T> {
 
 interface Number {
     inverseNumber(this: Number): number
+    isNegative(this: Number): boolean
 }
