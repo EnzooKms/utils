@@ -7,4 +7,9 @@ interface Array<T> {
 interface Number {
     inverseNumber(this: Number): number
     isNegative(this: Number): boolean
+    equalTo(this: Number, number: number): boolean
+}
+
+interface Math {
+    factoriel(number: number): number
 }

@@ -12,3 +12,10 @@ import './array/methold/sortNearestTo.js'
 
 import './number/methold/inverseNumber.js'
 import './number/methold/isNegative.js'
+import './number/methold/equalTo.js'
+
+/**
+ * Math injector
+ */
+
+import './math/methold/factoriel.js'

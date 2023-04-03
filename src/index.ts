@@ -9,6 +9,7 @@
 
 export * from './array/function/removeIndex.js'
 export * from './array/function/sortNearestTo.js'
+export * from './array/function/replaceArray.js'
 
 /**
  * number export
@@ -16,3 +17,10 @@ export * from './array/function/sortNearestTo.js'
 
 export * from './number/function/isNegative.js'
 export * from './number/function/inverseNumber.js'
+export * from './number/function/equalTo.js'
+
+/**
+ * Math export
+ */
+
+export * from './math/function/factoriel.js'
