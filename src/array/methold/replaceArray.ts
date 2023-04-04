@@ -5,10 +5,8 @@
 function replaceArray(this: Array<any>, table: Array<any>): Array<any> {
     const length = this.length
 
-    if (!Array.isArray(table)) {
-        throw new Error("You must put in array at argument 0");
+    if (!Array.isArray(table)) throw new Error(`Argument table must be an Array of any Array<any> not an ${typeof table}`);
 
-    }
 
     for (let i = 0; i < length; i++) {
         this.pop()

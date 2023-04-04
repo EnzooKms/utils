@@ -24,3 +24,4 @@ export * from './number/function/equalTo.js'
  */
 
 export * from './math/function/factoriel.js'
+export * from './math/function/somme.js'

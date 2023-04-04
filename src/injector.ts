@@ -19,3 +19,4 @@ import './number/methold/equalTo.js'
  */
 
 import './math/methold/factoriel.js'
+import './math/methold/somme.js'

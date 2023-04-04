@@ -4,6 +4,8 @@
 
 function removeIndex(this: Array<any>, index: number): Array<any> {
 
+    if (typeof index !== 'number') throw new Error(`Argument index must be an number not an ${typeof index}`)
+
     const array = this
     const result: Array<any> = []
 

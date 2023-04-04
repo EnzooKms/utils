@@ -5,6 +5,9 @@ import '../../injector.js'
  *  sort Array of number nearest to an reference
  */
 function sortNearestToProp(this: Array<any>, reference: number): Array<number> {
+
+    if (typeof reference !== 'number') throw new Error(`Argument reference must be an number not an ${typeof reference}`)
+
     const length: number = this.length
     const result = []
     const difference = {

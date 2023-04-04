@@ -11,5 +11,14 @@ interface Number {
 }
 
 interface Math {
+
+    /**
+     * @param number the number factoriel
+     */
     factoriel(number: number): number
+
+    /**
+     * @param array the array to sum
+     */
+    sum(array: Array<number>): number
 }

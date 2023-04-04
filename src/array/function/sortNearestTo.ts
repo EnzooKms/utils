@@ -3,6 +3,10 @@ import '../../injector.js'
 
 
 export function sortNearestTo(table: Array<any>, reference: number): Array<number> {
+
+    if (!Array.isArray(table)) throw new Error(`Argument table must be an Array of any Array<any> not an ${typeof table}`);
+    if (typeof reference !== 'number') throw new Error(`Argument reference must be an number not an ${typeof reference}`)
+
     const length: number = table.length
     const result = []
     const difference = {
