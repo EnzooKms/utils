@@ -9,14 +9,11 @@
   "types": "build/types/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "npx tsc",
-    "test": "jest"
+    "build": "npx tsc"
   },
   "author": "enzoo_kms",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^29.5.0",
-    "jest": "^29.0.5",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
