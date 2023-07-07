@@ -11,6 +11,13 @@ interface Array<T> {
    */
 
   divide(this: any[], refence: number): Array<any[]>;
+
+  /**
+   * flat an array to 0 level
+   * @param {Array<any[] & any>} this the array to fully flat
+   * @return {any[]}
+   */
+  toFlat(this: Array<any[] & any>): Array<any>;
 }
 
 interface Number {

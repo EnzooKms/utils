@@ -6,6 +6,7 @@ import "./array/methold/removeIndex.js";
 import "./array/methold/replaceArray.js";
 import "./array/methold/sortNearestTo.js";
 import "./array/methold/divide.js";
+import "./array/methold/toFlat.js";
 
 /**
  * Number injector

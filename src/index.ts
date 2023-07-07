@@ -9,7 +9,7 @@ export * from "./array/function/removeIndex.js";
 export * from "./array/function/sortNearestTo.js";
 export * from "./array/function/replaceArray.js";
 export * from "./array/function/divide.js";
-export * from "./array/function/sortByFusion.js";
+export * from "./array/function/toFlat.js";
 
 /**
  * number export
