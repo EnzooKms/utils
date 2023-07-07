@@ -1,5 +1,3 @@
-import "./methold/sleep.js";
-
 interface Time {
   sleep(duration: number): boolean;
 }
